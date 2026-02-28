@@ -1,8 +1,5 @@
 import numpy as np
 
-UID = 122011601
-Last_Name = 'Konikkara'
-First_Name = 'Francis'
 
 
 def caesar_str_enc(plaintext, k):
@@ -85,4 +82,5 @@ if __name__ == "__main__":
     print(f"Vigenere Ciphertext: {encstr}")
 
     decstr = vigenere_dec(input_key, encstr)
+
     print(f"Vigenere Decryptedtext: {decstr}")
